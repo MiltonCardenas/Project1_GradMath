@@ -124,94 +124,160 @@ NAME,Mean usual hours (Men+Women),state,county
 "Wakulla County, Florida",40.0,Florida,Wakulla County
 "Walton County, Florida",39.4,Florida,Walton County
 "Washington County, Florida",38.8,Florida,Washington County
-"Adams County, Ohio",38.5,Ohio,Adams County
-"Allen County, Ohio",37.9,Ohio,Allen County
-"Ashland County, Ohio",37.8,Ohio,Ashland County
-"Ashtabula County, Ohio",37.9,Ohio,Ashtabula County
-"Athens County, Ohio",32.8,Ohio,Athens County
-"Auglaize County, Ohio",39.9,Ohio,Auglaize County
-"Belmont County, Ohio",37.0,Ohio,Belmont County
-"Brown County, Ohio",39.1,Ohio,Brown County
-"Butler County, Ohio",37.9,Ohio,Butler County
-"Carroll County, Ohio",39.0,Ohio,Carroll County
-"Champaign County, Ohio",40.0,Ohio,Champaign County
-"Clark County, Ohio",38.4,Ohio,Clark County
-"Clermont County, Ohio",38.7,Ohio,Clermont County
-"Clinton County, Ohio",38.5,Ohio,Clinton County
-"Columbiana County, Ohio",38.5,Ohio,Columbiana County
-"Coshocton County, Ohio",39.1,Ohio,Coshocton County
-"Crawford County, Ohio",38.6,Ohio,Crawford County
-"Cuyahoga County, Ohio",38.3,Ohio,Cuyahoga County
-"Darke County, Ohio",39.4,Ohio,Darke County
-"Defiance County, Ohio",39.3,Ohio,Defiance County
-"Delaware County, Ohio",38.9,Ohio,Delaware County
-"Erie County, Ohio",39.1,Ohio,Erie County
-"Fairfield County, Ohio",39.0,Ohio,Fairfield County
-"Fayette County, Ohio",38.8,Ohio,Fayette County
-"Franklin County, Ohio",38.6,Ohio,Franklin County
-"Fulton County, Ohio",38.9,Ohio,Fulton County
-"Gallia County, Ohio",38.3,Ohio,Gallia County
-"Geauga County, Ohio",38.8,Ohio,Geauga County
-"Greene County, Ohio",37.0,Ohio,Greene County
-"Guernsey County, Ohio",39.3,Ohio,Guernsey County
-"Hamilton County, Ohio",38.4,Ohio,Hamilton County
-"Hancock County, Ohio",39.1,Ohio,Hancock County
-"Hardin County, Ohio",37.5,Ohio,Hardin County
-"Harrison County, Ohio",40.3,Ohio,Harrison County
-"Henry County, Ohio",39.9,Ohio,Henry County
-"Highland County, Ohio",39.1,Ohio,Highland County
-"Hocking County, Ohio",37.7,Ohio,Hocking County
-"Holmes County, Ohio",40.4,Ohio,Holmes County
-"Huron County, Ohio",39.0,Ohio,Huron County
-"Jackson County, Ohio",38.3,Ohio,Jackson County
-"Jefferson County, Ohio",38.5,Ohio,Jefferson County
-"Knox County, Ohio",37.2,Ohio,Knox County
-"Lake County, Ohio",38.5,Ohio,Lake County
-"Lawrence County, Ohio",37.9,Ohio,Lawrence County
-"Licking County, Ohio",38.9,Ohio,Licking County
-"Logan County, Ohio",39.2,Ohio,Logan County
-"Lorain County, Ohio",38.0,Ohio,Lorain County
-"Lucas County, Ohio",38.2,Ohio,Lucas County
-"Madison County, Ohio",38.8,Ohio,Madison County
-"Mahoning County, Ohio",37.9,Ohio,Mahoning County
-"Marion County, Ohio",39.4,Ohio,Marion County
-"Medina County, Ohio",38.9,Ohio,Medina County
-"Meigs County, Ohio",38.2,Ohio,Meigs County
-"Mercer County, Ohio",39.4,Ohio,Mercer County
-"Miami County, Ohio",39.2,Ohio,Miami County
-"Monroe County, Ohio",40.4,Ohio,Monroe County
-"Montgomery County, Ohio",37.9,Ohio,Montgomery County
-"Morgan County, Ohio",38.9,Ohio,Morgan County
-"Morrow County, Ohio",40.5,Ohio,Morrow County
-"Muskingum County, Ohio",38.5,Ohio,Muskingum County
-"Noble County, Ohio",31.3,Ohio,Noble County
-"Ottawa County, Ohio",39.6,Ohio,Ottawa County
-"Paulding County, Ohio",39.3,Ohio,Paulding County
-"Perry County, Ohio",39.4,Ohio,Perry County
-"Pickaway County, Ohio",39.3,Ohio,Pickaway County
-"Pike County, Ohio",38.3,Ohio,Pike County
-"Portage County, Ohio",37.3,Ohio,Portage County
-"Preble County, Ohio",39.2,Ohio,Preble County
-"Putnam County, Ohio",39.5,Ohio,Putnam County
-"Richland County, Ohio",38.3,Ohio,Richland County
-"Ross County, Ohio",38.2,Ohio,Ross County
-"Sandusky County, Ohio",38.3,Ohio,Sandusky County
-"Scioto County, Ohio",38.0,Ohio,Scioto County
-"Seneca County, Ohio",37.8,Ohio,Seneca County
-"Shelby County, Ohio",39.5,Ohio,Shelby County
-"Stark County, Ohio",38.2,Ohio,Stark County
-"Summit County, Ohio",38.4,Ohio,Summit County
-"Trumbull County, Ohio",37.8,Ohio,Trumbull County
-"Tuscarawas County, Ohio",39.4,Ohio,Tuscarawas County
-"Union County, Ohio",39.8,Ohio,Union County
-"Van Wert County, Ohio",39.0,Ohio,Van Wert County
-"Vinton County, Ohio",39.2,Ohio,Vinton County
-"Warren County, Ohio",38.6,Ohio,Warren County
-"Washington County, Ohio",38.2,Ohio,Washington County
-"Wayne County, Ohio",39.1,Ohio,Wayne County
-"Williams County, Ohio",39.1,Ohio,Williams County
-"Wood County, Ohio",36.6,Ohio,Wood County
-"Wyandot County, Ohio",39.1,Ohio,Wyandot County
+"Adams County, Indiana",38.2,Indiana,Adams County
+"Allen County, Indiana",38.7,Indiana,Allen County
+"Bartholomew County, Indiana",38.9,Indiana,Bartholomew County
+"Benton County, Indiana",39.7,Indiana,Benton County
+"Blackford County, Indiana",40.4,Indiana,Blackford County
+"Boone County, Indiana",40.3,Indiana,Boone County
+"Brown County, Indiana",38.7,Indiana,Brown County
+"Carroll County, Indiana",40.6,Indiana,Carroll County
+"Cass County, Indiana",38.9,Indiana,Cass County
+"Clark County, Indiana",38.7,Indiana,Clark County
+"Clay County, Indiana",40.3,Indiana,Clay County
+"Clinton County, Indiana",38.9,Indiana,Clinton County
+"Crawford County, Indiana",39.9,Indiana,Crawford County
+"Daviess County, Indiana",39.3,Indiana,Daviess County
+"Dearborn County, Indiana",38.7,Indiana,Dearborn County
+"Decatur County, Indiana",40.5,Indiana,Decatur County
+"DeKalb County, Indiana",39.8,Indiana,DeKalb County
+"Delaware County, Indiana",35.7,Indiana,Delaware County
+"Dubois County, Indiana",41.2,Indiana,Dubois County
+"Elkhart County, Indiana",38.4,Indiana,Elkhart County
+"Fayette County, Indiana",40.0,Indiana,Fayette County
+"Floyd County, Indiana",38.7,Indiana,Floyd County
+"Fountain County, Indiana",39.5,Indiana,Fountain County
+"Franklin County, Indiana",39.9,Indiana,Franklin County
+"Fulton County, Indiana",40.2,Indiana,Fulton County
+"Gibson County, Indiana",39.9,Indiana,Gibson County
+"Grant County, Indiana",36.9,Indiana,Grant County
+"Greene County, Indiana",38.3,Indiana,Greene County
+"Hamilton County, Indiana",39.5,Indiana,Hamilton County
+"Hancock County, Indiana",40.1,Indiana,Hancock County
+"Harrison County, Indiana",38.7,Indiana,Harrison County
+"Hendricks County, Indiana",39.6,Indiana,Hendricks County
+"Henry County, Indiana",40.0,Indiana,Henry County
+"Howard County, Indiana",39.0,Indiana,Howard County
+"Huntington County, Indiana",38.0,Indiana,Huntington County
+"Jackson County, Indiana",40.4,Indiana,Jackson County
+"Jasper County, Indiana",39.3,Indiana,Jasper County
+"Jay County, Indiana",40.0,Indiana,Jay County
+"Jefferson County, Indiana",39.4,Indiana,Jefferson County
+"Jennings County, Indiana",40.5,Indiana,Jennings County
+"Johnson County, Indiana",39.7,Indiana,Johnson County
+"Knox County, Indiana",39.1,Indiana,Knox County
+"Kosciusko County, Indiana",39.5,Indiana,Kosciusko County
+"LaGrange County, Indiana",38.5,Indiana,LaGrange County
+"Lake County, Indiana",38.8,Indiana,Lake County
+"LaPorte County, Indiana",38.8,Indiana,LaPorte County
+"Lawrence County, Indiana",38.8,Indiana,Lawrence County
+"Madison County, Indiana",38.6,Indiana,Madison County
+"Marion County, Indiana",38.7,Indiana,Marion County
+"Marshall County, Indiana",39.0,Indiana,Marshall County
+"Martin County, Indiana",39.8,Indiana,Martin County
+"Miami County, Indiana",38.8,Indiana,Miami County
+"Monroe County, Indiana",34.4,Indiana,Monroe County
+"Montgomery County, Indiana",39.2,Indiana,Montgomery County
+"Morgan County, Indiana",39.5,Indiana,Morgan County
+"Newton County, Indiana",40.5,Indiana,Newton County
+"Noble County, Indiana",39.8,Indiana,Noble County
+"Ohio County, Indiana",41.5,Indiana,Ohio County
+"Orange County, Indiana",39.7,Indiana,Orange County
+"Owen County, Indiana",38.8,Indiana,Owen County
+"Parke County, Indiana",40.1,Indiana,Parke County
+"Perry County, Indiana",40.1,Indiana,Perry County
+"Pike County, Indiana",40.5,Indiana,Pike County
+"Porter County, Indiana",38.9,Indiana,Porter County
+"Posey County, Indiana",39.0,Indiana,Posey County
+"Pulaski County, Indiana",39.2,Indiana,Pulaski County
+"Putnam County, Indiana",37.9,Indiana,Putnam County
+"Randolph County, Indiana",40.1,Indiana,Randolph County
+"Ripley County, Indiana",39.7,Indiana,Ripley County
+"Rush County, Indiana",41.0,Indiana,Rush County
+"St. Joseph County, Indiana",37.9,Indiana,St. Joseph County
+"Scott County, Indiana",40.6,Indiana,Scott County
+"Shelby County, Indiana",39.8,Indiana,Shelby County
+"Spencer County, Indiana",40.1,Indiana,Spencer County
+"Starke County, Indiana",38.4,Indiana,Starke County
+"Steuben County, Indiana",39.4,Indiana,Steuben County
+"Sullivan County, Indiana",39.0,Indiana,Sullivan County
+"Switzerland County, Indiana",39.4,Indiana,Switzerland County
+"Tippecanoe County, Indiana",36.4,Indiana,Tippecanoe County
+"Tipton County, Indiana",40.3,Indiana,Tipton County
+"Union County, Indiana",41.2,Indiana,Union County
+"Vanderburgh County, Indiana",38.7,Indiana,Vanderburgh County
+"Vermillion County, Indiana",39.8,Indiana,Vermillion County
+"Vigo County, Indiana",37.2,Indiana,Vigo County
+"Wabash County, Indiana",37.6,Indiana,Wabash County
+"Warren County, Indiana",40.9,Indiana,Warren County
+"Warrick County, Indiana",40.5,Indiana,Warrick County
+"Washington County, Indiana",40.2,Indiana,Washington County
+"Wayne County, Indiana",39.0,Indiana,Wayne County
+"Wells County, Indiana",38.7,Indiana,Wells County
+"White County, Indiana",40.6,Indiana,White County
+"Whitley County, Indiana",39.4,Indiana,Whitley County
+"Albany County, New York",37.0,New York,Albany County
+"Allegany County, New York",36.6,New York,Allegany County
+"Bronx County, New York",36.6,New York,Bronx County
+"Broome County, New York",36.0,New York,Broome County
+"Cattaraugus County, New York",37.7,New York,Cattaraugus County
+"Cayuga County, New York",38.1,New York,Cayuga County
+"Chautauqua County, New York",37.5,New York,Chautauqua County
+"Chemung County, New York",37.7,New York,Chemung County
+"Chenango County, New York",38.5,New York,Chenango County
+"Clinton County, New York",37.7,New York,Clinton County
+"Columbia County, New York",38.3,New York,Columbia County
+"Cortland County, New York",37.2,New York,Cortland County
+"Delaware County, New York",37.9,New York,Delaware County
+"Dutchess County, New York",37.7,New York,Dutchess County
+"Erie County, New York",37.6,New York,Erie County
+"Essex County, New York",38.3,New York,Essex County
+"Franklin County, New York",38.2,New York,Franklin County
+"Fulton County, New York",38.6,New York,Fulton County
+"Genesee County, New York",38.6,New York,Genesee County
+"Greene County, New York",37.8,New York,Greene County
+"Hamilton County, New York",37.0,New York,Hamilton County
+"Herkimer County, New York",37.9,New York,Herkimer County
+"Jefferson County, New York",41.0,New York,Jefferson County
+"Kings County, New York",38.5,New York,Kings County
+"Lewis County, New York",39.8,New York,Lewis County
+"Livingston County, New York",36.6,New York,Livingston County
+"Madison County, New York",37.6,New York,Madison County
+"Monroe County, New York",37.5,New York,Monroe County
+"Montgomery County, New York",38.0,New York,Montgomery County
+"Nassau County, New York",38.6,New York,Nassau County
+"New York County, New York",41.9,New York,New York County
+"Niagara County, New York",37.2,New York,Niagara County
+"Oneida County, New York",37.5,New York,Oneida County
+"Onondaga County, New York",37.7,New York,Onondaga County
+"Ontario County, New York",37.9,New York,Ontario County
+"Orange County, New York",38.3,New York,Orange County
+"Orleans County, New York",38.6,New York,Orleans County
+"Oswego County, New York",37.2,New York,Oswego County
+"Otsego County, New York",36.7,New York,Otsego County
+"Putnam County, New York",38.5,New York,Putnam County
+"Queens County, New York",38.1,New York,Queens County
+"Rensselaer County, New York",38.1,New York,Rensselaer County
+"Richmond County, New York",37.7,New York,Richmond County
+"Rockland County, New York",37.3,New York,Rockland County
+"St. Lawrence County, New York",36.9,New York,St. Lawrence County
+"Saratoga County, New York",38.9,New York,Saratoga County
+"Schenectady County, New York",37.6,New York,Schenectady County
+"Schoharie County, New York",38.1,New York,Schoharie County
+"Schuyler County, New York",37.8,New York,Schuyler County
+"Seneca County, New York",38.3,New York,Seneca County
+"Steuben County, New York",38.2,New York,Steuben County
+"Suffolk County, New York",38.2,New York,Suffolk County
+"Sullivan County, New York",38.7,New York,Sullivan County
+"Tioga County, New York",38.5,New York,Tioga County
+"Tompkins County, New York",34.3,New York,Tompkins County
+"Ulster County, New York",37.1,New York,Ulster County
+"Warren County, New York",38.9,New York,Warren County
+"Washington County, New York",38.8,New York,Washington County
+"Wayne County, New York",38.6,New York,Wayne County
+"Westchester County, New York",38.9,New York,Westchester County
+"Wyoming County, New York",39.7,New York,Wyoming County
+"Yates County, New York",37.4,New York,Yates County
 "Adams County, Pennsylvania",38.0,Pennsylvania,Adams County
 "Allegheny County, Pennsylvania",38.7,Pennsylvania,Allegheny County
 "Armstrong County, Pennsylvania",39.7,Pennsylvania,Armstrong County

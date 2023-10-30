@@ -1,9 +1,28 @@
 
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+""" Data_extraction file
 
-Top_states  = ["California", "Texas", "Florida", "Pennsylvania", "Ohio"]
+    In this python file is contained all the process to convert the raw datasets
+    into organized datasets following some criteria to extract the information
+    
+    Initial and final dataset names:
+        us-counties-2020.csv      -> filtered_COVID.csv
+        Industry_Dataset2020.csv  -> filtered_industry.csv
+        2020_MeanWorkTime.csv     -> filtered_meantime.csv
+    
+    Features:
+    
+    - Division of all names into counties and states
+    - Extraction of information related to the top 6 agricultural employment states
+    - Elimination of unuseful columns
+    - Change of the column_names for non-coded names
+    - Convertion of all numeric information into integer types
+    
+"""
+
+
+import pandas as pd
+
+Top_states  = ["California", "Texas", "Florida", "Pennsylvania", "New York", "Indiana"]
 
 # df1 = Top 5 states data of COVID cases
 if "df1" not in locals():
