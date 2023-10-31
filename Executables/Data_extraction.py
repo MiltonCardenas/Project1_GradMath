@@ -5,9 +5,14 @@
     into organized datasets following some criteria to extract the information
     
     Initial and final dataset names:
-        us-counties-2020.csv      -> filtered_COVID.csv
-        Industry_Dataset2020.csv  -> filtered_industry.csv
-        2020_MeanWorkTime.csv     -> filtered_meantime.csv
+        
+    from 
+        us-counties-2020.csv
+        Industry_Dataset2020.csv
+        2020_MeanWorkTime.csv    
+       
+    to:
+        project_dataset.csv  (Filtered and organized final dataset)
     
     Features:
     
@@ -16,6 +21,8 @@
     - Elimination of unuseful columns
     - Change of the column_names for non-coded names
     - Convertion of all numeric information into integer types
+    - Creation of a new name column in the covid database to differentiate equal county names
+    from differents states
     
 """
 
@@ -28,7 +35,11 @@ Top_states  = ["California", "Texas", "Florida", "Pennsylvania", "New York", "In
 if "df1" not in locals():
     df1 = pd.read_csv('../Datasets/us-counties-2020.csv')
     df1['county'] = df1['county'] + ' County'
-    covid_data = df1[df1['state'].isin(Top_states)]                              # Extract data of the selected states
+    df1['county'] = df1['county'].replace('New York City County', 'New York County')
+    df1['NAME'] = df1['county'] + ', ' + df1['state']                           # Create a new NAME column to avoid similar county names
+    df1 = df1[df1['state'].isin(Top_states)]                          # Extract data of the selected states
+    df1 = df1[df1['county'] != 'Unknown County']  # Delete unknown data
+    covid_data = df1.groupby('NAME')['deaths'].sum().reset_index()    # Deaths per country
 
 # df2 = Top 5 states data of mean work time
 if "df2" not in locals():
@@ -36,6 +47,7 @@ if "df2" not in locals():
     df2 = pd.read_csv('../Datasets/2020_MeanWorkTime.csv', usecols=useful_col2) # Take useful columns of the dataset
     df2['state']  = df2['NAME'].str.split(', ').str[-1]                         # Split the column "Name and create a new column "state"
     df2['county'] = df2['NAME'].str.split(', ').str[0]                          # Split the column "Name and create a new column "county"
+    df2['B23020_001E'] = pd.to_numeric(df2['B23020_001E'], errors='coerce')     # Convert the column to numeric, replacing non-numeric values with NaN
     New_names2 = {'B23020_001E':'Mean usual hours (Men+Women)'}
     df2 = df2.rename(columns=New_names2)                                        # Rename columns
     meantime_data = df2[df2['state'].isin(Top_states)]                          # Extract data of the selected states
@@ -54,7 +66,13 @@ if "df3" not in locals():
                  'S2404_C01_003E': '2020 16+ civilian employed in: Agriculture, forestry, fishing, and hunting)'}
     df3 = df3.rename(columns=New_names3)
     industry_data = df3[df3['state'].isin(Top_states)]                           # Extract data of the selected states
-    
-covid_data.to_csv("../Datasets/filtered_COVID.csv", index=False)                           # Save and exclude the index column
-meantime_data.to_csv("../Datasets/filtered_meantime.csv", index=False)     
-industry_data.to_csv("../Datasets/filtered_industry.csv", index=False)
+
+county_list = meantime_data['NAME'].unique()
+df = covid_data.merge(meantime_data, on='NAME', how='outer')
+df = df.merge(industry_data, on='NAME', how='outer')
+df = df.fillna(0)                                             # Fill miss values with 0
+df = df[df['Mean usual hours (Men+Women)'] >= 10]                            # Delete data outliers (not possible a mean below 10 h /week)
+
+columns_to_delete = ["state_x", "state_y", "county_x", "county_y"]
+df = df.drop(columns=columns_to_delete, axis=1)
+df.to_csv("../Datasets/project_dataset.csv", index=False)
