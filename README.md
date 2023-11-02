@@ -1,11 +1,51 @@
 # PROJECT 1, MATHEMATICAL METHODS
-Statystcial analysis of Pennsylvania COVID.
 
-Analyze if the finding that relate working in agriculture sector with an increase of COVID-19 deaths made in the work of Chen et al (2021) can be extrapolated to the Top 5 states with the most agriculture workers. 
+## 0. Organization
 
-Analyze if the shutdown p
+The present document is organized into the following folders:
 
-To have an accurate comparison, the data was segmented the same as in the work of Chen et al (2021)
+### Datasets:
+The purpose of this folder is to store all uncleaned datasets and tables with final data for the regression model. This folder contains all information related to the data.
+
+### Executables:
+The purpose of this folder is to house the executable codes that generate project results. There are two executables: the first one contains the code for data extraction from the databases in the previous folder. This code encompasses all the criteria used to clean the database and save the new clean dataset back into the datasets folder. The second file contains the executable for a Jupyter Notebook, which contains the code that generates the statistical results displayed in the project.
+
+### Graphics and Results Storage:
+The objective of this folder is to store all data for easy management and use for various purposes. This folder also supplies the graphics used in this document.
+
+### Support Codes:
+It contains a Python code with the same functionality and features as the Jupyter Notebook used in the project's development as a backup of information."
+
+## OBJECTIVES:
+The aim of this repository is to anwer the following questions related with the Covid-19 pandemic mortality:
+
+### SINGLE FACTOR QUESTIONS:
+ - Were counties with higher weekly working hours more likely to experience fatal outcomes during 2020?
+ - Were counties with greater food and agriculture-related industry percentage more prone to experiencing fatal outcomes in the selected states in 2020?"
+
+### DOUBLE FACTOR QUESTION:
+Were workers in the food and agriculture sector in the Top 6 agricultural GDP states who spent more time at work more likely to experience fatal outcomes in 2020?
+
+
+## POPULATION ANALIZED:
+The population of workers in the agriculture sector of the 5 states with the most GDP and workers attributed to this sector was analyzed.
+Selected states:
+["California", "Texas", "Florida", "Pennsylvania", "New York", "Indiana"]
+
+### The databases used were:
+COVID DATABASE:
+https://github.com/nytimes/covid-19-data/blob/master/us-counties-recent.csv
+
+County-related information:
+https://data.census.gov/table/ACSDT5Y2020.B23020?q=time&g=010XX00US$0500000
+https://data.census.gov/table/ACSST5Y2020.S2404?q=Industry&g=010XX00US$0500000
+
+## PRE-PROCESSING OF DATA:
+- Elimination of unnecessary columns.
+- Extraction of information of the top 6 agricultural employment states (Total GDP).
+- Conversion of all numeric information into integer or float types.
+- Organization of names. 
+- Covid cases were grouped by county.
 
 ## Sort criteria:
 
@@ -14,20 +54,6 @@ Food / agriculture
 
 Age range:
 18 - 65 years
-
-Pandemic start time
-March 1, 2020
-
-March 1, 2020 -  June 1, 202 - July 1 2020
-
-## ANALYSIS OF RESULTS
-It is not possible to conclude anything about the slopes of the groups because of the p-value. We cannot be confident about the difference between the groups (for both, factor 1 and factor 2).
-
-If we adjust the significance level for the p-value of the regression concerning the impact of the percentage of workers in the agricultural industry on COVID-19 deaths, it might lead to accepting the null hypothesis.
-
-There is no significant difference in the impact on COVID-19 cases for individuals who work longer hours. The p-value is significantly distant from the threshold, making it unlikely that this factor is associated with COVID-19 mortality.
-
-There is no significance in the overall regression model of the double-factor analysis. 
 
 
 ## RESULTS:
@@ -40,13 +66,22 @@ https://github.com/MiltonCardenas/Project1_GradMath/blob/main/Graphics%20and%20R
 
 ### FACTOR 2.
 
-https://github.com/MiltonCardenas/Project1_GradMath/blob/main/Graphics%20and%20Results%20Storage/%20factor2_results.png
+ https://github.com/MiltonCardenas/Project1_GradMath/blob/main/Graphics%20and%20Results%20Storage/%20factor2_results.png
 
 https://github.com/MiltonCardenas/Project1_GradMath/blob/main/Graphics%20and%20Results%20Storage/%20factor2_regression_summary.png
 
 ## Double factor:
 
 https://github.com/MiltonCardenas/Project1_GradMath/blob/main/Graphics%20and%20Results%20Storage/%20binary_regression_summary.png
+
+## ANALYSIS OF RESULTS
+ - It is not possible to conclude anything about the slopes of the groups because of the p-value. We cannot be confident about the difference between the groups (for both, factor 1 and factor 2).
+
+ - If we adjust the significance level for the p-value of the regression concerning the impact of the percentage of workers in the agricultural industry on COVID-19 deaths, it might lead to accepting the null hypothesis.
+
+ - There is no significant difference in the impact on COVID-19 cases for individuals who work longer hours. The p-value is significantly distant from the threshold, making it unlikely that this factor is associated with COVID-19 mortality.
+
+ - There is no significance in the overall regression model of the double-factor analysis. 
 
 ## LIMITATIONS AND FUTURE ANALYSIS:
 The COVID-19 deaths in the database were not directly linked to patient information, such as work-related details. A direct link would facilitate and improve the analysis.
