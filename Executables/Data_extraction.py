@@ -16,15 +16,14 @@
     
     Features:
     
-    - Division of all names into counties and states
-    - Extraction of information related to the top 6 agricultural employment states
-    - Elimination of unuseful columns
-    - Change of the column_names for non-coded names
-    - Convertion of all numeric information into integer types
-    - Creation of a new name column in the covid database to differentiate equal county names
-    from differents states
+        - Division of all names into counties and states
+        - Extraction of information related to the top 6 agricultural employment states
+        - Elimination of unnecessary columns
+        - Change of the column names to non-coded names
+        - Conversion of all numeric information into integer types
+        - Creation of a new "name" column in the COVID database to differentiate counties with the same name in different states
     
-"""
+""" 
 
 
 import pandas as pd
